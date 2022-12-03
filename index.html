@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js calc</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <div class="inner">
+        <div class="container">
+            <h1 class="head-res text-center mt-5">Let's check who goes first?</h1>
+            <div class="rel">
+                <button class="reload">Refresh the page</button>
+            </div>
+            <form class="form col-12 col-xl-4 mx-auto mt-4">
+                <label class="label" for="km">Distance</label>
+                <input class="form-input form-control mb-4" id="km" type="text" placeholder="Enter a value(km)">
+                <button type="submit" class="btn btn-danger w-100">Click</button>
+            </form>
+            <!-- Boxes -->
+            <div class="row mt-5 text-center">
+                <div class="col-md-3 col-lg-3 border border-2 rounded-3 p-5 gy-5">
+                    <em class="fa-solid fa-person-hiking"></em>
+                    <p class="h4 mt-3 opacity-75">Pedestrian</p>
+                    <p class="result-1 h3 mt-3 opacity-75">.. Hour</p>
+                </div>
+                <div class="col-md-3 col-lg-3 border border-2 rounded-3 p-5 gy-5">
+                    <em class="fa-solid fa-person-biking"></em>
+                    <p class="h4 mt-3 opacity-75">Bicycle</p>
+                    <p class="result-2 h3 mt-3 opacity-75">.. Hour</p>
+                </div>
+                <div class="col-md-3 col-lg-3 border border-2 rounded-3 p-5 gy-5">
+                    <em class="fa-solid fa-car"></em>
+                    <p class="h4 mt-3 opacity-75">Car</p>
+                    <p class="result-3 h3 mt-3 opacity-75">.. Hour</p>
+                </div>
+                <div class="col-md-3 col-lg-3 border border-2 rounded-3 p-5 gy-5">
+                    <em class="fa-solid fa-plane"></em>
+                    <p class="h4 mt-3 opacity-75">Plane</p>
+                    <p class="result-4 h3 mt-3 opacity-75">.. Hour</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

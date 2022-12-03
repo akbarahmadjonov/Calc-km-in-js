@@ -1,0 +1,25 @@
+em {
+  font-size: 70px;
+}
+
+.col-md-3:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: scale(0.9);
+}
+
+.rel {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rel button {
+  /* Paddings */
+  padding: 10px;
+  display: none;
+
+  border: none;
+  outline: none;
+  background-color: #b4b4b4;
+  color: #fff;
+  border-radius: 10px;
+}
